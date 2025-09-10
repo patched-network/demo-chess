@@ -49,7 +49,7 @@ import config from '../skuilder.config.json';
     }
 
     try {
-      const manifestResponse = await fetch(`/static-courses/${courseId}/manifest.json`);
+      const manifestResponse = await fetch(`${import.meta.env.BASE_URL}static-courses/${courseId}/manifest.json`);
       if (!manifestResponse.ok) {
         throw new Error(
           `Failed to load manifest: ${manifestResponse.status} ${manifestResponse.statusText}`
@@ -60,7 +60,7 @@ import config from '../skuilder.config.json';
       console.log(JSON.stringify(manifest));
 
       dataLayerOptions = {
-        staticContentPath: '/static-courses',
+        staticContentPath: `${import.meta.env.BASE_URL}static-courses`,
         manifests: {
           [courseId]: manifest,
         },
