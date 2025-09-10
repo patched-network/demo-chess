@@ -1,0 +1,9 @@
+{
+  "name": "@skuilder/external-test",
+  "version": "1.0.0",
+  "description": "Golang crs content published on a different gh pages deploy.",
+  "content": {
+    "type": "static",
+    "manifest": "./manifest.json"
+  }
+}

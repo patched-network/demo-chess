@@ -1,0 +1,18 @@
+{
+  "sorted": [
+    {
+      "elo": 1004,
+      "cardId": "c-9b123ed7-3731-448d-b52d-e7706f5cf2be"
+    }
+  ],
+  "buckets": {
+    "1000": [
+      "c-9b123ed7-3731-448d-b52d-e7706f5cf2be"
+    ]
+  },
+  "stats": {
+    "min": 1004,
+    "max": 1004,
+    "count": 1
+  }
+}

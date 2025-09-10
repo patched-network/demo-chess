@@ -1,0 +1,113 @@
+{
+  "version": "1.0.0",
+  "courseId": "5a49ad14-8839-42e4-85e7-54db7e837f71",
+  "courseName": "demo-chess",
+  "courseConfig": {
+    "_id": "CourseConfig",
+    "_rev": "3-5ac51742f8c08cb41835d98bb4da27d5",
+    "courseID": "unpacked_5a49ad14-8839-42e4-85e7-54db7e837f71_20250910_24xec8",
+    "name": "demo-chess",
+    "description": "",
+    "public": false,
+    "deleted": false,
+    "creator": "system",
+    "admins": [],
+    "moderators": [],
+    "dataShapes": [
+      {
+        "name": "ExampleCourse.datashape.SimpleTextQuestion",
+        "questionTypes": [
+          "ExampleCourse.question._SimpleTextQuestion"
+        ],
+        "serializedZodSchema": "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"description\": \"DataShape: SimpleTextQuestion - Schema for card creation\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"questionText\": {\n      \"type\": \"string\",\n      \"minLength\": 1\n    },\n    \"correctAnswer\": {\n      \"type\": \"string\",\n      \"minLength\": 1\n    }\n  },\n  \"required\": [\n    \"questionText\",\n    \"correctAnswer\"\n  ],\n  \"additionalProperties\": false\n}"
+      },
+      {
+        "name": "ExampleCourse.datashape.MultipleChoiceQuestion",
+        "questionTypes": [
+          "ExampleCourse.question._MultipleChoiceQuestion"
+        ],
+        "serializedZodSchema": "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"description\": \"DataShape: MultipleChoiceQuestion - Schema for card creation\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"questionText\": {\n      \"type\": \"string\",\n      \"minLength\": 1\n    },\n    \"options\": {\n      \"type\": \"string\",\n      \"minLength\": 1\n    },\n    \"correctAnswer\": {\n      \"type\": \"string\",\n      \"minLength\": 1\n    }\n  },\n  \"required\": [\n    \"questionText\",\n    \"options\",\n    \"correctAnswer\"\n  ],\n  \"additionalProperties\": false\n}"
+      },
+      {
+        "name": "ExampleCourse.datashape.NumberRangeQuestion",
+        "questionTypes": [
+          "ExampleCourse.question._NumberRangeQuestion"
+        ],
+        "serializedZodSchema": "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"description\": \"DataShape: NumberRangeQuestion - Schema for card creation\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"questionText\": {\n      \"type\": \"string\",\n      \"minLength\": 1\n    },\n    \"min\": {\n      \"description\": \"Numeric value for min\",\n      \"type\": \"number\"\n    },\n    \"max\": {\n      \"description\": \"Numeric value for max\",\n      \"type\": \"number\"\n    }\n  },\n  \"required\": [\n    \"questionText\",\n    \"min\",\n    \"max\"\n  ],\n  \"additionalProperties\": false\n}"
+      },
+      {
+        "name": "default.datashape.Blanks",
+        "questionTypes": [
+          "default.question.nd"
+        ],
+        "serializedZodSchema": "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"description\": \"DataShape: Blanks - Schema for card creation\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Input\": {\n      \"description\": \"Markdown text with blanks. Format: {{answer}} for fill-in or {{answer1|answer2||distractor1|distractor2}} for multiple choice. Use the 'fill-in-card-authoring' MCP prompt for detailed syntax guidance.\",\n      \"type\": \"string\",\n      \"minLength\": 1\n    },\n    \"Uploads\": {\n      \"description\": \"Optional media files (images, audio, etc.)\",\n      \"type\": \"array\",\n      \"items\": {}\n    }\n  },\n  \"required\": [\n    \"Input\"\n  ],\n  \"additionalProperties\": false\n}"
+      }
+    ],
+    "questionTypes": [
+      {
+        "name": "ExampleCourse.question._SimpleTextQuestion",
+        "viewList": [
+          "SimpleTextQuestionView"
+        ],
+        "dataShapeList": [
+          "ExampleCourse.datashape.SimpleTextQuestion"
+        ]
+      },
+      {
+        "name": "ExampleCourse.question._MultipleChoiceQuestion",
+        "viewList": [
+          "MultipleChoiceQuestionView"
+        ],
+        "dataShapeList": [
+          "ExampleCourse.datashape.MultipleChoiceQuestion"
+        ]
+      },
+      {
+        "name": "ExampleCourse.question._NumberRangeQuestion",
+        "viewList": [
+          "NumberRangeQuestionView"
+        ],
+        "dataShapeList": [
+          "ExampleCourse.datashape.NumberRangeQuestion"
+        ]
+      },
+      {
+        "name": "default.question.nd",
+        "viewList": [
+          "FillInView"
+        ],
+        "dataShapeList": [
+          "default.datashape.Blanks"
+        ]
+      }
+    ]
+  },
+  "lastUpdated": "2025-09-10T15:30:28.807Z",
+  "documentCount": 2,
+  "chunks": [
+    {
+      "id": "CARD-0000",
+      "docType": "CARD",
+      "startKey": "c-9b123ed7-3731-448d-b52d-e7706f5cf2be",
+      "endKey": "c-9b123ed7-3731-448d-b52d-e7706f5cf2be",
+      "documentCount": 1,
+      "path": "chunks/CARD-0000.json"
+    },
+    {
+      "id": "DISPLAYABLE_DATA-0000",
+      "docType": "DISPLAYABLE_DATA",
+      "startKey": "dd-08673190-f410-4633-97d9-35650ad68921",
+      "endKey": "dd-08673190-f410-4633-97d9-35650ad68921",
+      "documentCount": 1,
+      "path": "chunks/DISPLAYABLE_DATA-0000.json"
+    }
+  ],
+  "indices": [
+    {
+      "name": "elo",
+      "type": "btree",
+      "path": "indices/elo.json"
+    }
+  ],
+  "designDocs": []
+}
