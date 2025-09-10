@@ -8,6 +8,7 @@ import { fileURLToPath, URL } from 'node:url';
 const buildMode = process.env.BUILD_MODE || 'webapp';
 
 export default defineConfig({
+  base: process.env.NODE_ENV === 'production' ? '/demo-chess/' : '/',
   plugins: [
     vue(),
     // Only include dts plugin for library builds
