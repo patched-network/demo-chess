@@ -15,20 +15,14 @@
     "dataShapes": [
       {
         "name": "default.datashape.Blanks",
-        "questionTypes": [
-          "default.question.BlanksCard"
-        ]
+        "questionTypes": ["default.question.BlanksCard"]
       }
     ],
     "questionTypes": [
       {
         "name": "default.question.BlanksCard",
-        "viewList": [
-          "FillInView"
-        ],
-        "dataShapeList": [
-          "default.datashape.Blanks"
-        ]
+        "viewList": ["FillInView"],
+        "dataShapeList": ["default.datashape.Blanks"]
       }
     ],
     "courseID": "2aeb8315ef78f3e89ca386992d00825b"
@@ -41,7 +35,7 @@
       "docType": "DISPLAYABLE_DATA",
       "startKey": "07e3ce7d2009ef7162d0af56e6000bb6",
       "endKey": "804cfd4c244877d6d244bd6abc04e4ab",
-      "documentCount": 206,
+      "documentCount": 1,
       "path": "chunks/DISPLAYABLE_DATA-0000.json"
     },
     {
@@ -49,7 +43,7 @@
       "docType": "CARD",
       "startKey": "07e3ce7d2009ef7162d0af56e6001831",
       "endKey": "804cfd4c244877d6d244bd6abc04e520",
-      "documentCount": 202,
+      "documentCount": 1,
       "path": "chunks/CARD-0000.json"
     },
     {
