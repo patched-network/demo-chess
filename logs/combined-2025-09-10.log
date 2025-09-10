@@ -1,0 +1,34 @@
+{"level":"info","message":"FFMPEG path: /home/colin/tmp/demo-chess/node_modules/ffmpeg-static/ffmpeg","timestamp":"2025-09-10T15:20:38.256Z"}
+{"level":"info","message":"FFMPEG version: ffmpeg version 6.0-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2023 the FFmpeg developers","timestamp":"2025-09-10T15:20:38.286Z"}
+{"level":"info","message":"Following all course databases for changes...","timestamp":"2025-09-10T15:24:52.930Z"}
+{"level":"info","message":"Starting initCourseDBDesignDocInsert...","timestamp":"2025-09-10T15:24:52.930Z"}
+{"level":"warn","message":"Course lookup database not found - skipping platform course discovery","timestamp":"2025-09-10T15:24:52.940Z"}
+{"level":"info","message":"Studio mode detected: scanning for additional course databases...","timestamp":"2025-09-10T15:24:52.941Z"}
+{"level":"error","message":"Error in initCourseDBDesignDocInsert background task: [object Object]","timestamp":"2025-09-10T15:24:52.948Z"}
+{"level":"error","message":"Full error details in initCourseDBDesignDocInsert: {\"error\":\"not_found\",\"reason\":\"Database does not exist.\",\"status\":404,\"name\":\"not_found\",\"message\":\"Database does not exist.\",\"stack\":\"Error\\n    at generateErrorFromResponse (/home/colin/tmp/demo-chess/node_modules/pouchdb/lib/index.js:553:18)\\n    at fetchJSON (/home/colin/tmp/demo-chess/node_modules/pouchdb/lib/index.js:6886:19)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async /home/colin/tmp/demo-chess/node_modules/pouchdb/lib/index.js:7490:22\"}","timestamp":"2025-09-10T15:24:52.948Z"}
+{"level":"info","message":"Found 1 potential studio databases: coursedb-unpacked_5a49ad14-8839-42e4-85e7-54db7e837f71_20250910_24xec8","timestamp":"2025-09-10T15:24:52.964Z"}
+{"level":"info","message":"Starting postprocessing for studio database: coursedb-unpacked_5a49ad14-8839-42e4-85e7-54db7e837f71_20250910_24xec8","timestamp":"2025-09-10T15:24:53.012Z"}
+{"level":"info","message":"postProcessCourse: Starting for courseID: unpacked_5a49ad14-8839-42e4-85e7-54db7e837f71_20250910_24xec8","timestamp":"2025-09-10T15:24:53.013Z"}
+{"level":"info","message":"PACK_COURSE request from undefined...","timestamp":"2025-09-10T15:30:28.801Z"}
+{"level":"info","message":"Studio mode: bypassing authentication for local development","timestamp":"2025-09-10T15:30:28.801Z"}
+{"level":"info","message":"Authorized PACK_COURSE request made...","timestamp":"2025-09-10T15:30:28.802Z"}
+{"level":"info","message":"Starting PACK_COURSE for unpacked_5a49ad14-8839-42e4-85e7-54db7e837f71_20250910_24xec8...","timestamp":"2025-09-10T15:30:28.802Z"}
+{"level":"info","message":"Pack request data: {\n  \"courseId\": \"unpacked_5a49ad14-8839-42e4-85e7-54db7e837f71_20250910_24xec8\",\n  \"outputPath\": \"./public/static-courses/5a49ad14-8839-42e4-85e7-54db7e837f71\",\n  \"couchdbUrl\": \"http://admin:password@localhost:5985/coursedb-unpacked_5a49ad14-8839-42e4-85e7-54db7e837f71_20250910_24xec8\"\n}","timestamp":"2025-09-10T15:30:28.803Z"}
+{"level":"info","message":"Using provided CouchDB URL: \"http://admin:password@localhost:5985/coursedb-unpacked_5a49ad14-8839-42e4-85e7-54db7e837f71_20250910_24xec8\"","timestamp":"2025-09-10T15:30:28.803Z"}
+{"level":"info","message":"Packing course unpacked_5a49ad14-8839-42e4-85e7-54db7e837f71_20250910_24xec8 from http://admin:password@localhost:5985/coursedb-unpacked_5a49ad14-8839-42e4-85e7-54db7e837f71_20250910_24xec8 to /home/colin/tmp/demo-chess/public/static-courses/5a49ad14-8839-42e4-85e7-54db7e837f71","timestamp":"2025-09-10T15:30:28.804Z"}
+{"level":"info","message":"Removing existing directory: /home/colin/tmp/demo-chess/public/static-courses/5a49ad14-8839-42e4-85e7-54db7e837f71","timestamp":"2025-09-10T15:30:28.805Z"}
+{"level":"info","message":"Creating PouchDB instance with URL: http://admin:password@localhost:5985/coursedb-unpacked_5a49ad14-8839-42e4-85e7-54db7e837f71_20250910_24xec8","timestamp":"2025-09-10T15:30:28.807Z"}
+{"level":"info","message":"Using originalCourseId \"5a49ad14-8839-42e4-85e7-54db7e837f71\" for manifest (extracted from \"unpacked_5a49ad14-8839-42e4-85e7-54db7e837f71_20250910_24xec8\")","timestamp":"2025-09-10T15:30:28.807Z"}
+{"level":"info","message":"Pack completed in 20ms. Attachments: 0, Files written: 4","timestamp":"2025-09-10T15:30:28.822Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Sep/2025:15:30:28 +0000] \"POST / HTTP/1.1\" 200 193 \"http://localhost:7174/\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0\"","timestamp":"2025-09-10T15:30:28.824Z"}
+{"level":"info","message":"FFMPEG path: /home/colin/tmp/demo-chess/node_modules/ffmpeg-static/ffmpeg","timestamp":"2025-09-10T15:33:00.529Z"}
+{"level":"info","message":"FFMPEG version: ffmpeg version 6.0-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2023 the FFmpeg developers","timestamp":"2025-09-10T15:33:00.758Z"}
+{"level":"info","message":"Following all course databases for changes...","timestamp":"2025-09-10T15:33:02.238Z"}
+{"level":"info","message":"Starting initCourseDBDesignDocInsert...","timestamp":"2025-09-10T15:33:02.239Z"}
+{"level":"warn","message":"Course lookup database not found - skipping platform course discovery","timestamp":"2025-09-10T15:33:02.247Z"}
+{"level":"info","message":"Studio mode detected: scanning for additional course databases...","timestamp":"2025-09-10T15:33:02.247Z"}
+{"level":"error","message":"Error in initCourseDBDesignDocInsert background task: [object Object]","timestamp":"2025-09-10T15:33:02.253Z"}
+{"level":"error","message":"Full error details in initCourseDBDesignDocInsert: {\"error\":\"not_found\",\"reason\":\"Database does not exist.\",\"status\":404,\"name\":\"not_found\",\"message\":\"Database does not exist.\",\"stack\":\"Error\\n    at generateErrorFromResponse (/home/colin/tmp/demo-chess/node_modules/pouchdb/lib/index.js:553:18)\\n    at fetchJSON (/home/colin/tmp/demo-chess/node_modules/pouchdb/lib/index.js:6886:19)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async /home/colin/tmp/demo-chess/node_modules/pouchdb/lib/index.js:7490:22\"}","timestamp":"2025-09-10T15:33:02.254Z"}
+{"level":"info","message":"Found 1 potential studio databases: coursedb-unpacked_5a49ad14-8839-42e4-85e7-54db7e837f71_20250910_6ag86f","timestamp":"2025-09-10T15:33:02.267Z"}
+{"level":"info","message":"Starting postprocessing for studio database: coursedb-unpacked_5a49ad14-8839-42e4-85e7-54db7e837f71_20250910_6ag86f","timestamp":"2025-09-10T15:33:02.307Z"}
+{"level":"info","message":"postProcessCourse: Starting for courseID: unpacked_5a49ad14-8839-42e4-85e7-54db7e837f71_20250910_6ag86f","timestamp":"2025-09-10T15:33:02.307Z"}
