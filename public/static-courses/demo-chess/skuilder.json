@@ -1,0 +1,9 @@
+{
+  "name": "@skuilder/demo-chess",
+  "version": "1.0.0",
+  "description": "Chess Puzzles",
+  "content": {
+    "type": "static",
+    "manifest": "./manifest.json"
+  }
+}
